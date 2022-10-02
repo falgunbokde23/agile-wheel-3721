@@ -203,8 +203,8 @@ public class EmployeeDaoImpl implements EmployeeDao{
 
 
 	@Override
-	public String changePassword(int Eid) {
-	String message="Employee Not fount !...";
+	public String changePassword(int Eid , String Password) {
+	String message="Employee Not found !...";
 		
 	Employee employee =new Employee();
 		
@@ -220,7 +220,6 @@ public class EmployeeDaoImpl implements EmployeeDao{
 				message="Password update";
 			}
 			
-			
 		} catch (SQLException e) {
 			
 			message=e.getMessage();
@@ -234,7 +233,7 @@ public class EmployeeDaoImpl implements EmployeeDao{
 
 	@Override
 	public String changeDepartment(int Eid, int EDid) {
-		String message="Department Not fount !...";
+		String message="Department Not found !...";
 		
 		Employee employee =new Employee();
 			
@@ -296,7 +295,7 @@ public class EmployeeDaoImpl implements EmployeeDao{
 	@Override
 	public String acceptLeaves(int empId) {
 		
-		String message="Employee Not fount !...";
+		String message="Employee Not found !...";
 	
 			
 			try(Connection conn= DBUtil.provideConnection()) {
@@ -326,7 +325,7 @@ public class EmployeeDaoImpl implements EmployeeDao{
 	@Override
 	public String rejectLeaves(int empId) {
 		
-		String message="Employee Not fount !...";
+		String message="Employee Not found !...";
 		
 		
 			

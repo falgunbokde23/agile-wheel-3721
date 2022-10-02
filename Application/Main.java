@@ -7,10 +7,12 @@ import com.masai.usecases.loginEmployee;
 public class Main {
 	
 	public static void main(String[] args) {
-		
+		                   
 		Scanner sc= new Scanner(System.in);
 		
-		System.out.println("Welcome To Human Resource Management ");
+		System.out.println("--------Welcome To Human Resource Management---------");
+		System.out.println();
+		System.out.println("-------Plese Choose Options--------");
 		System.out.println("--------------------------------------");
 		
 		System.out.println("Press 1 for Login As Admin");
@@ -62,3 +64,102 @@ public class Main {
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//made by falgun bokde web 18 fw18_0390

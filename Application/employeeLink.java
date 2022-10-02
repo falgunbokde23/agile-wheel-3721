@@ -13,7 +13,8 @@ public class employeeLink {
 		
 		Scanner sc = new Scanner(System.in);
 		
-//		System.out.println("----Welcome Employee----");
+		System.out.println();
+		System.out.println("----Welcome Employee----");
 		
 		System.out.println();
 		System.out.println("Press 1 . View Your Profile ");
@@ -32,24 +33,29 @@ public class employeeLink {
 		
 		switch (choice) {
 		case 1: {
+			System.out.println();
 			getEmployeeById.viewEmployById();
 			break;
 		}
 		case 2: {
+			    System.out.println();
 				employeeUpdateProfileUsecase.updateProfile();
 				break;
 				}
 		case 3: {
+			System.out.println();
 			updatepasswordEmpUsecase.changePassword();
 			break;
 			
 		}
 		case 4: {
+			System.out.println();
 			applyForLeaveUsecase.applyLeaves();
 			break;
 			
 		}
 		case 5: {
+			System.out.println();
 			System.out.println("Application Closed");
 			break;
 		}
@@ -58,10 +64,122 @@ public class employeeLink {
 		}
 		
 		
-		
-		
-		
-		
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//made by falgun bokde web 18 fw18_0390

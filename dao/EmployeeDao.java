@@ -15,7 +15,7 @@ public interface EmployeeDao {
     
     public List<Employee> allEmployeeDetails()throws EmployeeException;
     
-    public String changePassword(int Eid);
+    public String changePassword(int Eid, String Password);
     
     public String updateEmployee(Employee employee, int Eid);
     

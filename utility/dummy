@@ -18,7 +18,7 @@ CREATE TABLE DEPARTMENT(
 						
 						
 						
-						ALTER TABLE department ADD column Did int auto_increment ;
+					
 						
 						
 						CREATE TABLE leaves (
